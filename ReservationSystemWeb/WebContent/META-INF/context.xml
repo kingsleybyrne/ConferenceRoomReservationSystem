@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- Specify a JDBC datasource -->
+	<Resource name="jdbc/reservationsystem" auth="Container"
+		type="javax.sql.DataSource" username="DB_USERNAME" password="DB_PASSWORD"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@xxx:1525:dbname"
+		maxActive="10" maxIdle="4" />
+
+</Context>
